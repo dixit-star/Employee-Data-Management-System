@@ -1,0 +1,173 @@
+ body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+         font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #container {
+        height: 60vh;
+        width: 80vh;
+        border: 2px solid;
+        border-radius: 20px;
+        background-image: url("https://tse4.mm.bing.net/th/id/OIP.458pqmSUYTPaqudcO5iPTQHaFB?pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 0px 20px 0px rgb(38, 39, 38);
+          animation: fadeIn 0.6s ease-in-out;
+      }
+      #container:hover {
+        height: 60vh;
+        width: 80vh;
+        border: 2px solid;
+        border-radius: 20px;
+        background-image: url("https://tse4.mm.bing.net/th/id/OIP.458pqmSUYTPaqudcO5iPTQHaFB?pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 0px 20px 0px rgb(229, 236, 229);
+        /* transform: rotate3d(1,2,3,360deg); */
+        transform: translate3d(2px, 2%, 2em);
+        transition: 1s;
+      }
+      #inputConatiner {
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        text-align: center;
+         position: relative;
+         right: 21px;
+      }
+
+      input {
+        margin: 3px;
+        border-left: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 2px solid;
+        border-radius: 10px;
+        height: 25px;
+        background-color: transparent;
+      
+      }
+
+      #icon {
+        position: relative;
+        top: 34px;
+        left: 60px;
+      }
+      button{
+      margin-top: 15px;
+      border-radius: 5px;
+      background-color:rgb(125, 167, 190) ;
+      }
+      button:hover{
+      margin-top: 15px;
+      border-radius: 5px;
+      background-color:rgb(45, 131, 177) ;
+      }
+      #textConatiner{
+      height: 55vh;
+      position: relative;
+      top: 130px;
+      right: 26%;
+        
+       
+      }
+      #links{
+       color: rgb(20, 18, 18);
+      }
+       #links:hover{
+       color: rgb(103, 58, 180);
+      }
+      @media (max-width:500px) {
+         body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #container {
+        height: 70vh;
+        width: 80vh;
+        border: 2px solid;
+        border-radius: 20px;
+        background-image: url("https://tse4.mm.bing.net/th/id/OIP.458pqmSUYTPaqudcO5iPTQHaFB?pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 0px 20px 0px rgb(38, 39, 38);
+        text-align: center;
+      }
+      #container:hover {
+        height: 70vh;
+        width: 80vh;
+        border: 2px solid;
+        border-radius: 20px;
+        background-image: url("https://tse4.mm.bing.net/th/id/OIP.458pqmSUYTPaqudcO5iPTQHaFB?pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 0px 20px 0px rgb(229, 236, 229);
+        /* transform: rotate3d(1,2,3,360deg); */
+        transform: translate3d(2px, 2%, 2em);
+        transition: 1s;
+      }
+      #inputConatiner {
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+         position: relative;
+         left: 0px;
+         top: 30px;
+      }
+
+      input {
+        margin: 12px;
+        border-left: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 2px solid;
+        border-radius: 10px;
+        height: 25px;
+        width: 200px;
+        background-color: transparent;
+      }
+
+      #icon {
+        position: relative;
+        top: 42px;
+        left: 85px;
+      }
+      button{
+      margin-top: 15px;
+      border-radius: 5px;
+      background-color:rgb(125, 167, 190) ;
+      }
+      button:hover{
+      margin-top: 15px;
+      border-radius: 5px;
+      background-color:rgb(45, 131, 177) ;
+      }
+      
+      #links{
+       color: rgb(20, 18, 18);
+       
+      }
+       #links:hover{
+       color: rgb(103, 58, 180);
+      }
+     
+      }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="employeeDataStyle.css" />
+</head>
+<style></style>
+
+<body>
+    <div id="mainConatiner">
+        <div id="navBarConatiner">
+            <nav id="navBar">
+                <input id="search" type="search" placeholder="Search by employeeId" />
+                <button  id="searchbtn">Search</button>
+            </nav>
+            <p  id="EmployeeData" style="color: white; " ></p>
+            <div id="logoutBtnContainer">
+                <button id="logoutbtn">Log Out</button>
+            </div>
+        </div>
+        <div id="container">
+            <h1>Employee Data</h1>
+
+            <div id="containTable">
+                <table class="tableItem" border="2px ">
+                    <tr>
+                        <th>Name</th>
+                        <th>Employee Id</th>
+                        <th>Gmail Id</th>
+                        <th>Mobile No.</th>
+                        <th>Salary</th>
+                        <th>Gender</th>
+                        <th>Date of Birth</th>
+                        <th>Department</th>
+                        <th>Date of Joining</th>
+                        <th>Address</th>
+                        <th>btn</th>
+                    </tr>
+                    <tr style="background-color: #444">
+                        <td>
+                            <input id="inputName" type="text" placeholder="Employee Name" required="" />
+                        </td>
+                        <td>
+                            <input id="inputEmId" type="number" placeholder="Employee Id" required="" />
+                        </td>
+                        <td>
+                            <input id="inputGmail" type="email" placeholder="@gmail.com" required="" />
+                        </td>
+                        <td>
+                            <input id="inputMobile" type="number" placeholder="Mobile Number" required="" />
+                        </td>
+                        <td>
+                            <input id="inputSalary" type="number" placeholder="Salary" required="" />
+                        </td>
+                        <td>
+                            <select style="width: 169.6px; height: 30.2px" id="gender">
+                                <option value="Female">Female</option>
+                                <option value="Male">Male</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input style="width: 169.6px; height: 26.2px" type="date" id="DOB" />
+                        </td>
+                        <td>
+                            <select style="width: 169.6px; height: 30.2px" id="department">
+                                <option value="Marketing">Marketing</option>
+                                <option value="IT">IT</option>
+                                <option value="HR">HR</option>
+                                <option value="Sales">Sales</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="date" id="DOJ" style="width: 169.6px; height: 26.2px" />
+                        </td>
+                        <td><input type="text" id="address" placeholder="Address" /></td>
+
+                        <td>
+                            <button  id="btn">
+                                Add
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div><p style="color: red;" id="errorMsg"></p></div>
+        </div>
+       
+    </div>
+ 
+ 
+    <script src="employeeDataScript.js"></script>
+</body>
+
+</html>

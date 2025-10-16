@@ -1,0 +1,172 @@
+body {
+  height: 100vh;
+  width: 150vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* background-color: rgb(27, 24, 24); */
+  background-image: url("https://tse4.mm.bing.net/th/id/OIP.458pqmSUYTPaqudcO5iPTQHaFB?pid=Api&P=0&h=180");
+  background-repeat: no-repeat;
+  background-size: 150vw;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navBarConatiner {
+  width: 150vw;
+  height: 60px;
+  min-width: 1920px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.464);
+  border: 2px solid;
+  border-radius: 0px 0px 10px 10px;
+  position: sticky;
+  top: 0.1px;
+}
+#navBar {
+  margin-left: 20px;
+  position: sticky;
+  left: 2%;
+}
+#EmployeeData {
+  margin-bottom: 15px;
+  margin-left: 180px;
+  position: sticky;
+  left: 2%;
+}
+#searchbtn {
+  margin-left: -5px;
+  height: 24.6px;
+  background-color: rgb(255, 102, 0);
+}
+#searchbtn:hover {
+  box-shadow: 0px 0px 15px 0px orangered;
+}
+#searchData {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#logoutBtnContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: sticky;
+  left: 93%;
+  margin-right: 20px;
+}
+#container {
+  width: 90%;
+  max-width: 2150px;
+
+  /* width: 2150px; */
+  height: auto;
+  border: 2px solid;
+  background-color: rgba(0, 0, 0, 0.334);
+  align-items: center;
+  position: relative;
+  top: 20%;
+  left: 7vw;
+  box-shadow: 0px 0px 50px 0px rgb(88, 25, 25);
+  border-radius: 20px;
+}
+
+#containTable {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+table {
+  color: azure;
+  border-collapse: collapse;
+}
+.editBtn{
+   background: linear-gradient(90deg, #17A2B8, #26ff00);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#btn {
+  background: linear-gradient(90deg, #00ff00, #1aff00);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.delBtn {
+  background: linear-gradient(90deg, #ff5100, #ff0000);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+input {
+  text-align: center;
+  height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+th,
+td {
+  border: 2px solid azure;
+  padding: 8px;
+}
+th {
+  background-color: #333;
+}
+tr:nth-child(odd) {
+  background-color: #444;
+}
+tr:hover {
+  background-color: #555;
+}
+h1 {
+  margin-bottom: 40px;
+  color: lightblue;
+}
+#logoutbtn {
+  background: linear-gradient(90deg, #ff5100, #ff0000);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#logoutbtn:hover {
+  background-color: rgb(238, 48, 10);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgb(63, 65, 61);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 500px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(27, 24, 24); */
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.458pqmSUYTPaqudcO5iPTQHaFB?pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 500vh;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+}
