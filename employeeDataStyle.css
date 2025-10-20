@@ -62,7 +62,7 @@ body {
 #container {
   width: 90%;
   max-width: 2150px;
-
+ overflow-x: auto;
   /* width: 2150px; */
   height: auto;
   border: 2px solid;
@@ -73,6 +73,7 @@ body {
   left: 7vw;
   box-shadow: 0px 0px 50px 0px rgb(88, 25, 25);
   border-radius: 20px;
+  
 }
 
 #containTable {
@@ -161,12 +162,57 @@ button:hover {
     display: flex;
     text-align: center;
     justify-content: center;
-    /* background-color: rgb(27, 24, 24); */
+
     background-image: url("https://tse4.mm.bing.net/th/id/OIP.458pqmSUYTPaqudcO5iPTQHaFB?pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-size: 500vh;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
   }
+#container {
+  width: 100%;
+  max-width: 2150px;
+ overflow-x: auto;
+  /* width: 2150px; */
+  height: auto;
+  border: 2px solid;
+  background-color: rgba(0, 0, 0, 0.334);
+  align-items: center;
+  position: relative;
+  top: 20%;
+  left: 1330px;
+  box-shadow: 0px 0px 50px 0px rgb(88, 25, 25);
+  border-radius: 20px;
+  
+}
+#navBarConatiner {
+
+  height: 60px;
+  width: 3450px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.464);
+  border: 2px solid;
+  border-radius: 0px 0px 10px 10px;
+  position: sticky;
+  top: 0.1px;
+}
+ #EmployeeData {
+  margin-bottom: 15px;
+  margin-left: 180px;
+  position: sticky;
+  left: 2%;
+}
+#logoutBtnContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: sticky;
+  left: 93%;
+  margin-right: 20px;
+}
+
   
 }
